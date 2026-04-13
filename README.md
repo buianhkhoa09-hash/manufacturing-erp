@@ -109,7 +109,7 @@ Frontend läuft unter: **http://localhost:5173**
 
 ---
 
-## 🌐 API-Endpunkte
+##  API-Endpunkte
 
 | Modul | Basis-URL |
 |---|---|
@@ -126,7 +126,7 @@ Alle Ressourcen unterstützen `GET /{id}`, `PUT /{id}`, `DELETE /{id}`.
 
 ---
 
-## 🗄️ Datenbankschema
+##  Datenbankschema
 
 ```
 departments ←── employees
@@ -138,7 +138,7 @@ suppliers   ←── products
 
 ---
 
-## 📁 Backend-Dateistruktur
+##  Backend-Dateistruktur
 
 ```
 src/main/java/com/erp/
@@ -158,7 +158,7 @@ src/main/java/com/erp/
 
 ---
 
-## 📁 Frontend-Dateistruktur
+##  Frontend-Dateistruktur
 
 ```
 src/
