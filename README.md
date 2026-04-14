@@ -236,9 +236,9 @@ erDiagram
 
 | Symbol | Bedeutung | Beispiel |
 |---|---|---|
-| `\|\|--o{` | Ein-zu-Viele (optional) | Eine Abteilung hat viele Mitarbeiter, aber ein Mitarbeiter kann auch ohne Abteilung existieren |
-| `\|\|--\|{` | Ein-zu-Viele (obligatorisch) | Ein Verkaufsauftrag muss mindestens eine Position enthalten |
-| `\|\|--o\|` | Ein-zu-Eins (optional) | Ein Verkaufsauftrag kann eine Rechnung haben — muss aber nicht |
+| `||--o{` | Ein-zu-Viele (optional) | Eine Abteilung hat viele Mitarbeiter, aber ein Mitarbeiter kann auch ohne Abteilung existieren |
+| `||--|{` | Ein-zu-Viele (obligatorisch) | Ein Verkaufsauftrag muss mindestens eine Position enthalten |
+| `||--o|` | Ein-zu-Eins (optional) | Ein Verkaufsauftrag kann eine Rechnung haben — muss aber nicht |
 
 **Schlüsselkürzel in den Tabellen:**
 - `PK` — Primary Key (Primärschlüssel): eindeutiger Bezeichner jeder Zeile, wird automatisch generiert
