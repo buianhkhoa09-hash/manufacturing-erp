@@ -1,16 +1,11 @@
 -- =============================================================
 --  MANUFACTURING ERP — MySQL Schema + Seed Data
 --  Compatible with: MySQL 8.0+ / MySQL Workbench
---  How to run: See instructions below
 -- =============================================================
 
--- Create and select the database
 CREATE DATABASE IF NOT EXISTS manufacturing_erp;
 USE manufacturing_erp;
 
--- -------------------------------------------------------------
--- CLEANUP (drop in reverse dependency order)
--- -------------------------------------------------------------
 SET FOREIGN_KEY_CHECKS = 0;
 DROP TABLE IF EXISTS payments;
 DROP TABLE IF EXISTS invoices;
@@ -355,7 +350,7 @@ JOIN customers  c ON c.id = so.customer_id
 LEFT JOIN employees e ON e.id = so.created_by;
 
 -- =============================================================
---  QUICK SELECT QUERIES — run these to see your data
+--  QUICK SELECT QUERIES 
 -- =============================================================
 
 SELECT * FROM departments;
